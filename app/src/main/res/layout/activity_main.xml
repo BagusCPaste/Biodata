@@ -5,9 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/bgg">
 
     <LinearLayout
+
         android:id="@+id/Lyt_linier"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -17,9 +19,13 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="BIODATA"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/alfa_slab_one"
             android:gravity="center"
-            android:layout_marginBottom="10dp"/>
+            android:textColor="#fff"
+            android:textSize="30dp"
+            android:text="BIODATA"
+            android:textStyle="bold" />
 
         <ImageView
             android:layout_width="300dp"
@@ -30,7 +36,7 @@
         <ScrollView
             android:id="@+id/scrlView"
             android:layout_width="match_parent"
-            android:layout_height="100dp">
+            android:layout_height="150dp">
 
             <LinearLayout
                 android:id="@+id/Lyt_linier3"
@@ -40,6 +46,7 @@
 
                 <TextView
                     android:id="@+id/txt_nim"
+
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="15dp"
@@ -47,7 +54,7 @@
                     android:layout_marginBottom="15dp"
                     android:fontFamily="sans-serif-condensed-light"
                     android:text=" NIM                : A11.2021.13446 "
-                    android:textColor="@color/black"
+                    android:textColor="#fff"
                     android:textSize="20dp"
                     android:textStyle="bold" />
 
@@ -57,9 +64,10 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="15dp"
                     android:layout_marginRight="15dp"
+
                     android:layout_marginBottom="15dp"
                     android:text=" Nama           : Muh Bagus Saputro "
-                    android:textColor="@color/black"
+                    android:textColor="#fff"
                     android:textSize="20dp"
                     android:textStyle="bold" />
 
@@ -71,7 +79,7 @@
                     android:layout_marginRight="15dp"
                     android:layout_marginBottom="15dp"
                     android:text=" Hobi             : Maen Game "
-                    android:textColor="@color/black"
+                    android:textColor="#fff"
                     android:textSize="20dp"
                     android:textStyle="bold" />
 
@@ -82,13 +90,14 @@
                     android:layout_marginLeft="15dp"
                     android:layout_marginRight="15dp"
                     android:layout_marginBottom="15dp"
-                    android:text=" Deskripsi     : dede4abcdedfkaadwfrifnrnfjdnfgdjfngrjnfgrjngjrnrngfjgf
-rgfkrjgfrgrgrjgrjijgriojgjgfniwjnjfjfrjrkjrgnrirpr;aabcdefghijklmnopqrstuvwxzyzassasaya akna oergi ke rsruff"
-                    android:textColor="@color/black"
+
+                    android:text=" Deskripsi     : Hi Saya Bagus, saya suka maen game, dan memancing"
+                    android:textColor="#fff"
                     android:textSize="20dp"
                     android:textStyle="bold" />
             </LinearLayout>
         </ScrollView>
+
         <LinearLayout
             android:id="@+id/Lyt_linier2"
             android:layout_width="match_parent"
